@@ -93,6 +93,10 @@ nav.mobile {
     display: none;
   }
 
+  .mobile a {
+    color: #000000;
+  }
+
   .mobile a:visited {
     color: #b22222;
   }
@@ -200,3 +204,5 @@ nav.mobile {
     min-width: 100%;
   }
 }
+
+/* BANNER2 CSS */
