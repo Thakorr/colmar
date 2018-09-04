@@ -274,7 +274,7 @@ nav.mobile {
   display: none;
 }
 
-.second-info {
+.middle {
   border-top: 1px solid #b22222;
   border-bottom: 1px solid #b22222;
 }
@@ -293,11 +293,11 @@ nav.mobile {
     flex-direction: column;
   }
 
-  .lecture {
+  .bottom {
     background-color: #ffffff;
   }
 
-  .second-info {
+  .middle {
     border-top: 0;
     border-bottom: 0;
     margin: 1rem 0;
