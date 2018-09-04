@@ -246,7 +246,7 @@ nav.mobile {
 }
 
 .banner2 .rightside {
-  border-left: 1px solid #d8d8d8;
+  border-left: 1px solid #b22222;
   padding: 1rem 0 2rem 0;
   display: flex;
   justify-content: flex-start;
@@ -261,6 +261,10 @@ nav.mobile {
   align-items: center;
 }
 
+.box:hover {
+  background-color: #d8d8d8;
+}
+
 .box img.desktop {
   width: 35%;
   padding: 1rem;
@@ -271,12 +275,8 @@ nav.mobile {
 }
 
 .second-info {
-  border-top: 1px solid #d8d8d8;
-  border-bottom: 1px solid #d8d8d8;
-}
-
-.lecture {
-  background-color: #d8d8d8;
+  border-top: 1px solid #b22222;
+  border-bottom: 1px solid #b22222;
 }
 
 @media only screen and (max-width: 480px) {
@@ -326,3 +326,5 @@ nav.mobile {
     margin-top: 1rem;
   }
 }
+
+/* BANNER3 CSS */
