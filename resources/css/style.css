@@ -175,11 +175,11 @@ nav.mobile {
     align-items: center;
   }
 
-  .banner1 .left-section {
+  .banner1 .leftside {
     width: 100%;
   }
 
-  .right-section {
+  .banner1 .rightside {
     width: 100%;
   }
 
@@ -328,3 +328,105 @@ nav.mobile {
 }
 
 /* BANNER3 CSS */
+
+.banner3 {
+  background-color: #d8d8d8;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner3 p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.courseblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.courselist {
+  display: none;
+}
+
+.course {
+  background-color: #ffffff;
+  width: 32%;
+  height: 17rem;
+  margin-bottom: 1.25rem;
+}
+
+.course img {
+  width: 100%;
+}
+
+.course-content h6 {
+  padding-bottom: .75rem;
+}
+
+.course-content p {
+  padding-top: .5rem;
+}
+
+.course-content span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #b22222;
+}
+
+.course-content {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner3 {
+    border-top: 1px solid #b22222;
+    border-bottom: 1px solid #b22222;
+    background-color: #ffffff;
+  }
+
+  .banner3 .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .courseblock {
+    display: none;
+  }
+
+  .courselist {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .courselist a {
+    background-color: #d8d8d8;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+  }
+
+  .courselist a:hover {
+      background-color: #b22222;
+      color: #ffffff;
+    }
+}
